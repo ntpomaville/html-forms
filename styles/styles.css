@@ -162,6 +162,11 @@
     padding-right: 5px;
 }
 
+#footer-info-div {
+    display: inline-block;
+    max-width: 900px;
+}
+
 .footer-href {
     color: #505050;
     text-decoration: none;
