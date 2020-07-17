@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intuit Account Creation Form</title>
+  <meta charset="UTF-8"/>
+</head>
+<body id='body'>
+  <link rel="stylesheet" href="styles/styles.css">
+  <div id="top-bar">
+    <button id="sign-in-btn" class="btn">Sign In</button>
+    <div id="already-have-acct-div">
+      <p id="already-have-acct">Already have an Intuit account?</p>
+      <a href="" class="href" id="forgot-pwd">I forgot my User ID or Password</a>
+    </div>
+  </div>
+  <header id="logo-header">
+    <img src="logo.png">
+  </header>
+  <div id="create-acct-div">
+    <header id="create-acct-head">
+      <span id="create-acct-title">Create an Intuit account</span>
+      <span id="acct-description">One account for everything Intuit, including Mint.</span>
+      <a href="" class="href">Learn more</a>
+    </header>
+    <form id="acct-create-form">
+      <fieldset class="fieldset">
+        <label class="label">Email address</label>
+        <br>
+        <input id="input-email" class="input" placeholder="You'll verify this later" type="email" required="required">
+      </fieldset>
+      <fieldset class="fieldset">
+        <label class="label">Phone (recommended)</label>
+        <br>
+        <input id="input-phone" class="input" placeholder="Helps with lost passwords and security" type="tel">
+        <p id="rates-disclaimer">Standard call, messaging or data rates may apply.</p>
+      </fieldset>
+      <fieldset class="fieldset" id="pwd-fieldset">
+        <label class="label">Password</label>
+        <br>
+        <input id="input-password" class="input" placeholder="Don't reuse an old password" type="password" required="required">
+      </fieldset>
+      <button id="create-acct-btn" class="btn">Create Account</button>
+    </form>
+    <footer id="create-acct-foot">
+      <span id="agreement">By clicking Create Account, you agree to our <br><a href="" class="href">Terms</a> and have read and acknowledge our <a href="" class="href">Privacy <br>Statement</a>.</span>
+      <section id="captcha-info-section">
+        <span id="captcha-info">Invisible reCAPTCHA by Google <a href="" class="href">Privacy Policy</a> and <a href="" class="href">Terms of Use</a>.</span>
+      </section>
+    </footer>
+  </div>
+  <footer id="page-footer">
+    <div id="footer-links-div">
+      <ul id="footer-links">
+        <li class="list-item">
+          <a href="" class="footer-href">Legal</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="footer-href">Privacy</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="footer-href">Security</a>
+        </li>
+      </ul>
+    </div>
+    <div id="footer-info-div">
+      <span class="footer-info-span">© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+      <br>
+      <span class="footer-info-span">Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+    </div>
+  </footer>
+  <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+#body {
+    background-color: #ECEEF1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #505050;
+}
+
+.href {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+.btn {
+    background: #0077C5;
+	color: #FFF;
+    border: none;
+    border-color: #0077C5;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    padding: 6px 12px;
+    color: white;
+	font: inherit;
+	cursor: pointer;
+}
+
+#top-bar{
+    display: inline-block;
+    width: 100%;
+}
+
+#sign-in-btn {
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    height: 32px;
+    width: 100px;
+    font-size: 1.125em;
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+#already-have-acct-div {
+    float: right;
+}
+
+#already-have-acct {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+#forgot-pwd {
+    margin: 0;
+    padding: 0;
+    align-items: bottom;
+}
+
+#logo-header {
+    width: 100%;
+    text-align: center;
+    padding: 28px 0 16px 0;
+}
+
+#create-acct-div {
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    padding: 30px 20px 30px 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 338px;
+}
+
+#create-acct-head {
+    text-align: center;
+}
+
+#create-acct-title {
+    display: block;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    padding-bottom: 21px;
+}
+
+#acct-description {
+    display: block;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.fieldset {
+    border: none;
+    margin-top: 15px;
+}
+
+.label {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.input {
+    height: 34px;
+    width: 298px;
+    color: #000000;
+    padding-left: 10px;
+    margin-top: 6px;
+    font-size: 1.2em;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+}
+
+#rates-disclaimer {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+#pwd-fieldset {
+    margin-top: 6px;
+}
+
+#create-acct-btn {
+    margin: 22px 0 42px 12px;
+    font-size: 15.75px;
+    height: 44px;
+    width: 312px;
+}
+
+#create-acct-foot {
+    text-align: center;
+    margin: 0 10px 0 10px;
+    color: #757575;
+}
+
+#agreement {
+    font-style: italic;
+    line-height: 1.8;
+}
+
+#captcha-info-section {
+    display: block;
+    background-color: #ECEEF1;
+    font-size: 10px;
+    margin: 32px -30px -30px -30px;
+    padding: 21px;
+}
+
+#page-footer {
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.list-item {
+    float: left;
+    margin: 13px 10px -15px 0;
+    padding-right: 5px;
+}
+
+.footer-href {
+    color: #505050;
+    text-decoration: none;
+}
+
+.footer-info-span {
+    line-height: 1.5;
+}
